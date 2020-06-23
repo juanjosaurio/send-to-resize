@@ -31,7 +31,7 @@ Remember to ``chmod 755 /home/user/folder/resize.sh``
 ``[Win]+R shell:sendto`` to open the windows folder where the _Send To_ shortcuts live.
 
 Create a new one called _Shrink_ with the following target:
-``C:\cygwin64\bin\bash.exe -c "source /home/user/folder/resize.sh" %*`` and 
+``C:\cygwin64\bin\bash.exe -c "source /home/user/folder/resize.sh" %*``
 
 ## Using it
 

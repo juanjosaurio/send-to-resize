@@ -18,7 +18,6 @@ echo $@ |
       RUTA="$(dirname "${ARCHIVO}")"
       EXTENSION="$(echo "${ARCHIVO}" | awk -F'.' '{print $NF}')"
       NOMBREBASE="$(basename "${ARCHIVO}" ".${EXTENSION}")"
-      echo "${RUTA} + ${NOMBREBASE} + ${EXTENSION}"
       cd "${RUTA}"
       echo "Resizing ${NOMBREBASE}.${EXTENSION}"
       convert "${NOMBREBASE}.${EXTENSION}" -resize "50%" "${NOMBREBASE}_half.${EXTENSION}"

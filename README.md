@@ -7,7 +7,7 @@ More than once I've also found myself wishing to be able to do it in an easier w
 The (self-imposed) restrictions are:
 
 * It has to work in Windows 10 (current working environment)
-* It has to user Cygwin
+* It has to use Cygwin
 * It has to use Image Magick
 
 I remembered having made something like this some years ago but for merging PDF files, but didn't have the code nor the setup instructions and also remembered that the folders and the file names couldn't have spaces for the script to work.

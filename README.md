@@ -7,8 +7,8 @@ More than once I've also found myself wishing to be able to do it in an easier w
 The (self-imposed) restrictions are:
 
 * It has to work in Windows 10 (current working environment)
-* It has to use Cygwin
-* It has to use Image Magick
+* It has to use Cygwin (echo, awk, sed, cygpath, dirname, basename)
+* It has to use Image Magick (convert)
 
 I remembered having made something like this some years ago but for merging PDF files, but didn't have the code nor the setup instructions and also remembered that the folders and the file names couldn't have spaces for the script to work.
 
@@ -36,5 +36,9 @@ Create a new one called _Shrink_ with the following target:
 ## Using it
 
 Right button on an image and you should select Send To and then _Shrink_ and the magic[1] should happen.
+
+The resized file will have a suffix _\_half_.
+
+For instance, if you resize ``morning_glory.jpg`` the smaller file would be called ``morning_glory_half.jpg``
 
 [1]: The magic would look like a black command screen.
